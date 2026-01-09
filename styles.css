@@ -506,3 +506,58 @@ img {
         text-align: left;
     }
 }
+
+/* Legal page typography */
+.legal {
+    max-width: 820px;
+}
+
+.legal-top h1 {
+    margin: 0 0 10px;
+    font-size: clamp(30px, 3.2vw, 44px);
+    letter-spacing: -0.6px;
+}
+
+.legal h2 {
+    margin-top: 34px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.legal h3 {
+    margin-top: 18px;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.legal p {
+    line-height: 1.85;
+}
+
+.legal ul {
+    margin: 10px 0 0 20px;
+    padding: 0;
+    color: var(--muted);
+    line-height: 1.85;
+}
+
+.legal li {
+    margin: 8px 0;
+}
+
+.legal a {
+    color: #2A2153;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.legal-rule {
+    border: 0;
+    border-top: 1px solid rgba(26, 22, 48, 0.10);
+    margin: 22px 0;
+}
+
+.legal-note {
+    margin-top: 26px;
+    font-size: 13px;
+}
