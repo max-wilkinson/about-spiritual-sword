@@ -332,6 +332,10 @@ img {
     box-shadow: var(--shadow);
 }
 
+.image-card img {
+    border-radius: 12px;
+}
+
 .caption {
     margin-top: 10px;
     color: rgba(26, 22, 48, 0.60);
@@ -364,6 +368,50 @@ img {
     margin-top: 2px;
     font-size: 13px;
     font-weight: 600;
+}
+
+/* Testimonials */
+.testimonials {
+    margin-top: 18px;
+    display: grid;
+    gap: 14px;
+}
+
+.testimonial {
+    margin: 0;
+    padding: 18px;
+    border-radius: var(--radius);
+    background: var(--card);
+    border: 1px solid var(--stroke);
+    box-shadow: 0 14px 30px rgba(26, 22, 48, 0.07);
+}
+
+.testimonial blockquote {
+    margin: 0;
+}
+
+.testimonial blockquote p {
+    margin: 0;
+    color: rgba(26, 22, 48, 0.78);
+    line-height: 1.75;
+}
+
+.testimonial-meta {
+    margin-top: 12px;
+    font-size: 13px;
+    font-weight: 700;
+    color: rgba(26, 22, 48, 0.55);
+}
+
+.testimonials-image {
+    margin: 0px 42px 0 0px;
+}
+
+.testimonials-image img {
+    border-radius: 22px;
+    overflow: hidden;
+    border: 1px solid var(--stroke);
+    box-shadow: var(--shadow);
 }
 
 /* Gallery */
