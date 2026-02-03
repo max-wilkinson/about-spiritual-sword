@@ -44,16 +44,6 @@ body::before {
         radial-gradient(900px 650px at 40% calc(100% - 140px), rgba(142, 119, 246, 0.10), transparent 72%);
 }
 
-@media (max-width: 520px) {
-    body::before {
-        background:
-            radial-gradient(620px 460px at 18% 120px, rgba(142, 119, 246, 0.22), transparent 72%),
-            radial-gradient(560px 420px at 108% 150px, rgba(255, 184, 77, 0.14), transparent 74%),
-            radial-gradient(820px 620px at 50% calc(100% - 120px), rgba(142, 119, 246, 0.08), transparent 74%);
-    }
-}
-
-
 img {
     max-width: 100%;
     display: block;
@@ -506,6 +496,13 @@ img {
 }
 
 @media (max-width: 520px) {
+    body::before {
+        background:
+            radial-gradient(620px 460px at 18% 120px, rgba(142, 119, 246, 0.22), transparent 72%),
+            radial-gradient(560px 420px at 108% 150px, rgba(255, 184, 77, 0.14), transparent 74%),
+            radial-gradient(820px 620px at 50% calc(100% - 120px), rgba(142, 119, 246, 0.08), transparent 74%);
+    }
+
     .section-tint {
         background:
             radial-gradient(680px 260px at 20% 0px, rgba(142, 119, 246, 0.12), transparent 72%),
@@ -513,9 +510,12 @@ img {
     }
 }
 
-
 /* Responsive */
 @media (max-width: 980px) {
+    .header-cta {
+        display: none;
+    }
+
     .hero-grid {
         grid-template-columns: 1fr;
     }
@@ -534,6 +534,10 @@ img {
 
     .cards {
         grid-template-columns: 1fr;
+    }
+
+    .testimonials-image {
+        margin: 0;
     }
 
     .gallery {
