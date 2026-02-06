@@ -29,6 +29,7 @@ body {
     color: var(--text);
     position: relative;
     z-index: 0;
+    background-color: #FFF !important;
 }
 
 body::before {
