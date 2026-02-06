@@ -78,6 +78,7 @@ img {
     backdrop-filter: blur(10px);
     background: rgba(246, 244, 255, 0.72);
     border-bottom: 1px solid var(--stroke);
+    padding-top: env(safe-area-inset-top);
 }
 
 .header-inner {
