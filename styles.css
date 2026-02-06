@@ -514,9 +514,9 @@ img {
 
 /* Responsive */
 @media (max-width: 980px) {
-    .site-header {
+    /* .site-header {
         background: var(--bg);
-    }
+    } */
 
     .header-cta {
         display: none;
